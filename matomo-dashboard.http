@@ -1,0 +1,6 @@
+@matomo_dashboard_HostAddress = http://localhost:5136
+
+GET {{matomo_dashboard_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
