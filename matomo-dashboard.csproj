@@ -19,7 +19,7 @@
   <ItemGroup>
     <Folder Include="client\" />
     <Folder Include="cli\" />
-    <Folder Include="data\" />
+    <Folder Include="data\models\" />
   </ItemGroup>
 
 </Project>
