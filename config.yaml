@@ -1,0 +1,16 @@
+﻿# Configuration file
+
+# possible values will be "csv" and "database" eventually.
+mode: "csv"
+# API endpoint
+matomo_url: "https://intranet.lib.ecu.edu/matomo/index.php"
+# API key. Will be given as a file path for security reasons. 
+# The program will then read the file from the path. The file will
+# not be tracked in git.
+matomo_key: ""
+# siteId parameter
+siteID: 6
+# The folder where the generated files will be automatically placed
+output_folder: ""
+# The year that the report is being generated for
+reporting_year: 2026
